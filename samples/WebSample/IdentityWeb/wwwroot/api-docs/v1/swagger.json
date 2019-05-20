@@ -1,0 +1,37 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Identity API V1",
+    "description": "API to get data for Identity",
+    "contact": {
+      "name": "AzureAD",
+      "url": "https://github.com/azuread",
+      "email": ""
+    },
+    "license": {
+      "name": "MIT License",
+      "url": "https://example.com/license"
+    },
+    "version": "v1"
+  },
+  "servers": [
+    {
+      "url": "http://example.com"
+    }
+  ],
+  "paths": {
+    "/api/values": {
+      "get": {
+        "tags": [
+          "Values"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}
